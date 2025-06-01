@@ -22,7 +22,8 @@ The goal of this project is to analyze sales performance data from a retail supe
 - Bar and pie charts for top-selling products and regions
 
 > 🔗 *Dashboard Snapshot:*  
-![SuperStore Dashboard Sample](https://github.com/user-attachments/assets/sample-superstore-dashboard-image)
+![image](https://github.com/user-attachments/assets/0c9d7299-79d4-4097-b75f-48b646152620)
+
 
 ## 🔄 Process  
 - Cleaned and transformed raw data using Power Query Editor
