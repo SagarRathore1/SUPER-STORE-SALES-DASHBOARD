@@ -2,26 +2,25 @@
 
 ## 📌 Project Objective
 
-The goal of this project is to analyze sales performance data from a retail superstore and build a dynamic dashboard using Power BI[cite: 1]. The dashboard helps stakeholders understand sales trends, profit distribution, product performance, and regional insights to drive better business decisions[cite: 1].
+The goal of this project is to analyze sales performance data from a retail superstore and build a dynamic dashboard using Power BI[cite: 1]. The dashboard helps stakeholders understand sales trends, profit distribution, product performance, and regional insights to drive better business decisions.
 
 ---
 
 ## 📂 Project Files
 
-- **Power BI Dashboard File:** [`Retail Supply Chain Dashboard.pbix`](./Retail%20Supply%20Chain%20Dashboard.pbix)[cite: 8]
-- **Primary Dataset:** [`Sample - Superstore.csv`](./Sample%20-%20Superstore.csv)
-- **Secondary Dataset:** [`train.csv`](./train.csv)
+- **Power BI Dashboard File:** 
+- **Primary Dataset:** 
 
 ---
 
 ## ❓ Key Questions Addressed
 
-1. What is the total sales, profit, and quantity sold across different regions[cite: 1]?
-2. Which product categories and sub-categories perform best[cite: 1]?
-3. Which states are contributing the most to sales and profits[cite: 1]?
-4. What is the trend of sales and profit over time (monthly/quarterly/YoY)[cite: 1]?
+1. What is the total sales, profit, and quantity sold across different regions?
+2. Which product categories and sub-categories perform best?
+3. Which states are contributing the most to sales and profits?
+4. What is the trend of sales and profit over time (monthly/quarterly/YoY)?
 5. How do promotional discount thresholds impact profitability and gross margin leakage?
-6. Which customer segments and shipping modes deliver the highest operational returns[cite: 1]?
+6. Which customer segments and shipping modes deliver the highest operational returns?
 
 ---
 
@@ -29,9 +28,9 @@ The goal of this project is to analyze sales performance data from a retail supe
 
 The report is structured into dedicated operational views:
 
-- **Executive View:** High-level KPI cards (Total Sales, Total Profit, Total Quantity, Average Delivery SLA) paired with tile slicers and segment breakdowns[cite: 1].
-- **Sales & Profitability Analysis:** Category and sub-category performance matrices highlighting margin compression[cite: 1, 7].
-- **Trend & YoY Tracking:** Multi-year monthly progression comparing historical trajectories against prior-year baselines[cite: 1, 4, 6].
+- **Executive View:** High-level KPI cards (Total Sales, Total Profit, Total Quantity, Average Delivery SLA) paired with tile slicers and segment breakdowns.
+- **Sales & Profitability Analysis:** Category and sub-category performance matrices highlighting margin compression.
+- **Trend & YoY Tracking:** Multi-year monthly progression comparing historical trajectories against prior-year baselines.
 - **Root-Cause Tree Decomposition:** Multi-level exploratory paths drilling from business divisions down to regional logistics modes.
 
 ### 🔗 Dashboard Snapshot
@@ -60,16 +59,16 @@ The report is structured into dedicated operational views:
      - `Profit LY = CALCULATE([Total Profit], SAMEPERIODLASTYEAR('Calendar'[Date]))`
 
 3. **Visual Design & Layout:**
-   - Implemented an executive dark theme (`#141836` canvas with `#1E2246` card containers)[cite: 1].
-   - Applied conditional visual formatting, custom donut charts, horizontal bar rankings, and dark satellite map layers[cite: 1].
+   - Implemented an executive dark theme (`#141836` canvas with `#1E2246` card containers).
+   - Applied conditional visual formatting, custom donut charts, horizontal bar rankings, and dark satellite map layers.
 
 ---
 
 ## 🔍 Key Insights
 
 - **Category Margin Disparity:** **Technology** generates the highest profit margin (~**17.40%**) on high gross revenue ($836K+), whereas **Furniture** operates at a compressed **2.49%** margin despite generating over $741K in sales due to heavy promotional markdown reliance.
-- **Direct Loss Drivers:** The sub-categories **Tables** (-$17.7K net loss, -8.56% margin, 26.1% average discount) and **Bookcases** (-$3.5K net loss, 21.1% average discount) account for severe profit leakage, offset by profit engines like **Copiers** (+$25.0K) and **Phones** (+$13.0K)[cite: 7].
-- **Geographic & State Performance:** **California** and **New York** serve as dominant revenue generators. Regionally, the **West** leads in total profit ($108.4K, 14.94% margin) with controlled discounting (10.9%)[cite: 9], whereas the **Central** territory experiences significant erosion (7.92% margin) where nearly **1 in 3 transactions (31.9%)** sells at a loss[cite: 9].
+- **Direct Loss Drivers:** The sub-categories **Tables** (-$17.7K net loss, -8.56% margin, 26.1% average discount) and **Bookcases** (-$3.5K net loss, 21.1% average discount) account for severe profit leakage, offset by profit engines like **Copiers** (+$25.0K) and **Phones** (+$13.0K).
+- **Geographic & State Performance:** **California** and **New York** serve as dominant revenue generators. Regionally, the **West** leads in total profit ($108.4K, 14.94% margin) with controlled discounting (10.9%), whereas the **Central** territory experiences significant erosion (7.92% margin) where nearly **1 in 3 transactions (31.9%)** sells at a loss.
 - **Fulfillment & SLAs:** **Standard Class** accounts for approximately 59% of shipment volume with a steady 5-day delivery duration, while **First Class** (2.2 days) and **Same Day** (same-day turnaround) maintain SLAs without diluting shipping margins.
 - **Discount Threshold Impact:** Orders with discount rates exceeding **20%** represent over $135K in cumulative gross losses, isolating discounting policies as the primary driver of negative-return sales.
 
@@ -79,5 +78,5 @@ The report is structured into dedicated operational views:
 
 1. **Enforce Category Discount Ceilings:** Implement strict discount governance capping promotional rates below 20% on Furniture lines (specifically Tables and Bookcases) to recover an estimated $22K–$53K in leaked margin.
 2. **Capitalize on Technology Lines:** Expand inventory and marketing investment around high-performing sub-categories (Phones, Accessories, Copiers) within top-tier metropolitan territories.
-3. **Restructure Central Region Pricing:** Conduct an operational audit of Central territory distribution channels to address the 31.9% loss-making order frequency and align regional margins with the West benchmark[cite: 9].
+3. **Restructure Central Region Pricing:** Conduct an operational audit of Central territory distribution channels to address the 31.9% loss-making order frequency and align regional margins with the West benchmark.
 4. **Leverage Corporate Segment Relationships:** Target Corporate and B2B buyers with loyalty agreements and structured terms rather than arbitrary line-item discounts.
