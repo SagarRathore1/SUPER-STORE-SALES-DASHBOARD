@@ -36,7 +36,8 @@ The report is structured into dedicated operational views:
 
 ### 🔗 Dashboard Snapshot
 
-![SuperStore Sales Dashboard](image_fed7db.jpg)[cite: 1]
+<img width="935" height="525" alt="image" src="https://github.com/user-attachments/assets/d4895f16-8b80-45b7-aa07-22cc9dee3ea3" />
+
 
 ---
 
