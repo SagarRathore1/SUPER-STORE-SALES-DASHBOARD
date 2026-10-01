@@ -9,7 +9,7 @@ The goal of this project is to analyze sales performance data from a retail supe
 ## 📂 Project Files
 
 - **Power BI Dashboard File:** `Retail Supply Chain Dashboard.pbix`
-- **Primary Dataset:** 
+- **Primary Dataset:** `Sample-SuperStore`
 
 ---
 
