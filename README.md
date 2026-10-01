@@ -2,7 +2,7 @@
 
 ## 📌 Project Objective
 
-The goal of this project is to analyze sales performance data from a retail superstore and build a dynamic dashboard using Power BI[cite: 1]. The dashboard helps stakeholders understand sales trends, profit distribution, product performance, and regional insights to drive better business decisions.
+The goal of this project is to analyze sales performance data from a retail superstore and build a dynamic dashboard using Power BI. The dashboard helps stakeholders understand sales trends, profit distribution, product performance, and regional insights to drive better business decisions.
 
 ---
 
